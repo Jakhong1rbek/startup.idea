@@ -17,7 +17,7 @@ import React from 'react'
 function Navbar() {
 	const { resolvedTheme } = useTheme()
 	return (
-		<header className='font-work-sans fixed inset-0 z-40 h-20 bg-background/70 backdrop-blur-xl'>
+		<header className=' fixed inset-0 z-40 h-20 bg-background/70 backdrop-blur-xl'>
 			<nav className='container mx-auto flex h-full max-w-7xl items-center justify-between border-b'>
 				<Link href={'/'}>
 					<Image src={'/logo.png'} alt='logo' width={144} height={30} />
