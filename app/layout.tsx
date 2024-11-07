@@ -68,7 +68,7 @@ const spaceGrotesk = SpaceGrotesk({
 })
 export const metadata: Metadata = {
 	title: 'UpStart',
-	description: 'Ignite. Connect. Innovate.',
+	description: 'Ignite. Connect and Innovate.',
 }
 
 export default function RootLayout({ children }: ChildProps) {

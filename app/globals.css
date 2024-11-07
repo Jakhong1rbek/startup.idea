@@ -62,10 +62,31 @@ body {
 		--chart-5: 340 75% 55%;
 	}
 }
+@layer utilities {
+	.search-form {
+		@apply max-w-3xl w-full min-h-[80px] bg-white border-[5px] border-black rounded-[80px] text-[24px] mt-8 px-5 flex flex-row items-center gap-5;
+	}
 
+	.search-input {
+		@apply flex-1 font-bold placeholder:font-semibold placeholder:text-black w-full h-auto outline-none;
+	}
+}
+
+.pattern {
+	background-image: linear-gradient(
+		to right,
+		transparent 49.5%,
+		rgba(251, 232, 67, 0.2) 49.5%,
+		rgba(251, 232, 67, 0.6) 50.5%,
+		transparent 50.5%
+	);
+	background-size: 5% 100%;
+	background-position: center;
+	background-repeat: repeat-x;
+}
 @layer base {
 	* {
-		@apply border-border font-roboto;
+		@apply border-border;
 	}
 	body {
 		@apply bg-background text-foreground;
