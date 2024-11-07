@@ -20,9 +20,9 @@ function SearchForm({ query }: { query?: string }) {
 			<div className='flex gap-2'>
 				{query && <SearchFormReset />}
 				<Button
-					variant={'ghost'}
+					variant={'default'}
 					type='submit'
-					className='flex size-[50px] items-center justify-center rounded-full bg-black'
+					className='flex size-[50px] items-center justify-center rounded-full'
 				>
 					<Search className='size-5' />
 				</Button>

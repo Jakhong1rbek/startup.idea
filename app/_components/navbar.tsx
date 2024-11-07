@@ -24,12 +24,13 @@ function Navbar() {
 				</Link>
 				<div className='flex items-center gap-5'>
 					<SignedOut>
+						<ModeToggle />
 						<SignUpButton mode='modal'>
 							<Button variant={'ghost'} className='rounded-full'>
 								Sign Up
 							</Button>
 						</SignUpButton>
-						<SignInButton>
+						<SignInButton mode='modal'>
 							<Button className='rounded-full'>Log In</Button>
 						</SignInButton>
 					</SignedOut>
